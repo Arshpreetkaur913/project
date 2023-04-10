@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us | Clothing Brand Website</title>
+	<link rel="stylesheet" href="styling3.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="https://as2.ftcdn.net/v2/jpg/05/78/88/53/1000_F_578885397_OutgFNv3c5JbFDmeSggmATuC1dWClMdZ.png" alt="Clothing Brand Logo" style="width :50px;"></a>
+		<nav>
+			<ul>
+				<li><a href="brand.html">Home</a></li>
+				<li><a href="servicespage.html">Services</a></li>
+				<li><a href="contactpage.html">Contact</a></li>
+				<li><a href="loginpage.html">Login</a></li>
+                <li><a href="profile.html">Profile</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main style="background-image: url('https://th.bing.com/th/id/OIP.NzigVJRmst-BM7s1Z75ZbQHaEo?w=284&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7.jpg');">
+		<h1>Contact Us</h1>
+		<p>If you have any questions or concerns, please don't hesitate to contact us using the form below:</p>
+		<form action="submit-form.php" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Clothing Brand. All rights reserved.</p>
+	</footer>
+</body>
+</html>

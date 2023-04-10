@@ -1,0 +1,98 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ad4747;
+    background-color: #fafafaf9;
+    font-weight: bolder;
+  }
+  
+  header {
+    background-image: linear-gradient(to top, #52d2ecc6, #ffae009d) ;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #803939;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image:linear-gradient(to top, #52d2ecc6, #ffae009d) ;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #db3a3a;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-image:linear-gradient(to top, #52d2ecc6, #ffae009d) ;
+    color: #a44141;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: bolder;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-image: linear-gradient(to top, #52d2ecc6, #ffae009d) ;
+    color: #ae3b3b;
+    padding: 10px;
+    text-align:center;
+    font-weight: bolder;
+  }
+  

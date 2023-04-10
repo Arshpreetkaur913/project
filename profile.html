@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Your Profile | Clothing Brand Website</title>
+	<link rel="stylesheet" href="styling4.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="https://as2.ftcdn.net/v2/jpg/05/78/88/53/1000_F_578885397_OutgFNv3c5JbFDmeSggmATuC1dWClMdZ.png" alt="Clothing Brand Logo" style="width :50px;"></a>
+		<nav>
+			<ul>
+				<li><a href="brand.html">Home</a></li>
+				<li><a href="servicespage.html">Services</a></li>
+				<li><a href="contactpage.html">Contact</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="loginpage.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main style="background-image: url('https://th.bing.com/th/id/OIP.Cs_4vex5eaOKq27Cz2fXlQHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7.jpg')";>
+		<h1>Your Profile</h1>
+		<p>Welcome to your profile! Here you can view and edit your account information.</p>
+		<form action="update-profile.php" method="POST">
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+			<input type="submit" value="Save Changes"><br>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Clothing Brand. All rights reserved.</p>
+	</footer>
+</body>
+</html>
